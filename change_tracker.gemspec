@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Laura Eck"]
   spec.email         = ["me@lauraeck.com"]
   spec.summary       = %q{A gem to track changes to your models' data}
-  spec.description   = %q{A gem to track changes to your models' data by saving the type of change and the changed data.}
+  spec.description   = %q{A gem to track changes to your models' data}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "minitest"
+  spec.add_development_dependency "rspec"
 end
