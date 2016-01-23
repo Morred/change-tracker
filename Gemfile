@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-# Specify your gem's dependencies in githubsearch.gemspec
 gemspec
 
 group :development do
@@ -10,4 +9,5 @@ end
 group :test do
   gem 'activerecord'
   gem 'sqlite3'
+  gem 'database_cleaner'
 end
