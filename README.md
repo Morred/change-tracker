@@ -8,13 +8,13 @@ When creating or deleting a record, Change Tracker will serialize and save the c
 
 ## Setup
 
-1. Add the gem to your Gemfile.
+Add the gem to your Gemfile.
 ```
 gem 'change_tracker'
 ```
 Run `bundle install`.
 
-2. Add a **changes** table to your database:
+Add a *changes* table to your database:
 ```
 bundle exec rails generate change_tracker:install
 bundle exec rake db:migrate
@@ -33,3 +33,4 @@ class Something < ActiveRecord::Base
 
 end
 ```
+That's it!
