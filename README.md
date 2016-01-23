@@ -1,4 +1,5 @@
 # Change Tracker
+[![Build Status](https://travis-ci.org/Morred/change_tracker.svg?branch=master)](https://travis-ci.org/Morred/change_tracker)
 
 This gem helps you to track changes to your models. It's like a very lightweight version of gems like paper_trail, which are awesome but felt like overkill for what I needed at that point in time (specifically a changelog that would just display changes to records, no need for rolling back to earlier versions etc).
 
