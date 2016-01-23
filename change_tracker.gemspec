@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'change-tracker/version'
+require 'change_tracker/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "change-tracker"
+  spec.name          = "change_tracker"
   spec.version       = ChangeTracker::VERSION
   spec.authors       = ["Laura Eck"]
   spec.email         = ["me@lauraeck.com"]
-  spec.summary       = %q{A gem to track changes to your models' data.}
-  spec.description   = %q{A gem to track changes to your models' data.}
+  spec.summary       = %q{A gem to track changes to your models' data}
+  spec.description   = %q{A gem to track changes to your models' data by saving the type of change and the changed data.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
