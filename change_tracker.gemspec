@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["Laura Eck"]
   spec.email         = ["me@lauraeck.com"]
   spec.summary       = %q{A gem to track changes to your models' data}
-  spec.description   = %q{A gem to track changes to your models' data}
-  spec.homepage      = ""
+  spec.description   = %q{A gem to track changes to your models' data for creating, updating and deleting}
+  spec.homepage      = "https://github.com/Morred/change_tracker"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,5 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.7"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.4.0"
+  spec.add_development_dependency "rspec", "~> 3.4"
 end
