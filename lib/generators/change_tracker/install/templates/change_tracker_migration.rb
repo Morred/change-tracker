@@ -1,4 +1,4 @@
-class ActsAsTaggableOnMigration < ActiveRecord::Migration
+class ChangeTrackerMigration < ActiveRecord::Migration
   def self.up
     create_table :changes do |t|
       t.string :record_model
