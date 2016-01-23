@@ -30,7 +30,7 @@ describe 'Change Tracker' do
 
   context 'for tracked models' do
     before(:each) do
-      PickledRadish.include(ChangeTracker)
+      PickledRadish.send(:include, ChangeTracker)
     end
 
     it 'tracks creating a model' do
