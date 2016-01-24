@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ChangeTracker::VERSION
   spec.authors       = ["Laura Eck"]
   spec.email         = ["me@lauraeck.com"]
-  spec.summary       = %q{A gem to track changes to your models' data}
-  spec.description   = %q{A gem to track changes to your models' data for creating, updating and deleting}
+  spec.summary       = %q{A gem to track changes to your Active Record models' data}
+  spec.description   = %q{A gem to track changes to your Active Record models' data for creating, updating and deleting}
   spec.homepage      = "https://github.com/Morred/change_tracker"
   spec.license       = "MIT"
 
